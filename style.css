@@ -98,7 +98,7 @@ a:hover {
 .aboutMe {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 75px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -108,7 +108,7 @@ a:hover {
     align-items: center;
 }
 
-.aboutMe h1 {
+.aboutMe h2 {
     font-family: Montserrat;
     color: grey;
     font-size: 3rem;
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .bioPara {
-    width: 60%;
+    width: 40%;
 }
 
 
@@ -162,7 +162,7 @@ a:hover {
     border: 1px solid grey;
 }
 
-.projects h1 {
+.projects h2 {
     font-family: Montserrat;
     color: grey;
     font-size: 3rem;
@@ -171,7 +171,7 @@ a:hover {
     margin-left: 20px;
 }
 
-.contact h1 {
+.contact h2 {
     font-family: Montserrat;
     color: grey;
     font-size: 3rem;
@@ -194,13 +194,13 @@ a:hover {
     word-wrap: break-word;
 }
 
-.projectDescription h2 {
+.projectDescription h3 {
     font-family: Montserrat;
     font-weight: 200;
     font-size: 2rem;
 }
 
-.projectDescription h3 {
+.projectDescription .tech {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 1.5rem;
@@ -226,7 +226,7 @@ a:hover {
     align-items: center;
 }
 
-.copyright h4 {
+.copyright p {
     font-family: Montserrat;
     font-weight: 100;
     font-size: 1rem;
