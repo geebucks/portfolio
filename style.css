@@ -1,12 +1,16 @@
 nav {
     position: fixed;
+    left: 0px;
     z-index: 10;
     background-color: white;
     border-bottom: 1px solid lightgrey;
     height: 35px;
     width: 100%;
     top: 0px;
-    margin-top: 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .nav {
@@ -16,7 +20,7 @@ nav {
     width: 100%;
 }
 
-nav h3 {
+nav p {
     margin: 0px 30px;
     font-family: Montserrat;
     font-weight: 400;
@@ -254,7 +258,7 @@ a:hover {
         margin-top: 15px;
         justify-content: center;
     }
-    nav h3 {
+    nav p {
         margin: 0px 5px;
         font-size: 1rem;
     }
@@ -310,7 +314,7 @@ a:hover {
         width: 80%;
         height: auto;
     }
-    .aboutMe h1 {
+    .aboutMe h2 {
         width: 100%;
     }
     .bio {
